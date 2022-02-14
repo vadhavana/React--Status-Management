@@ -2,9 +2,64 @@
   text-align: center;
 }
 
+.filter {
+  margin-right: 5%;
+}
+.search {
+  margin-right: 3%;
+}
+
+.Card:hover {
+  box-shadow: 5px 5px 10px #119cf1;
+}
+
+.filter select {
+  border-bottom-color: gray;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  padding: 15px;
+}
+
+.search input {
+  padding: 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Card {
+  margin: 2%;
+  height: 170px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #b7b9bd;
+}
+
+.Card-Name {
+  text-align: center;
+  padding-left: 5%;
+  padding-top: 14%;
+}
+
+.Card-Img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.Card-Select {
+  margin-left: 20%;
+  padding: 7px;
+  border-bottom-color: gray;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
